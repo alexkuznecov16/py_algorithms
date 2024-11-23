@@ -1,4 +1,4 @@
-def fibonacci(max: int) -> list:
+def Fibonacci(max: int) -> list:
   if max <= 0:
     return []
   elif max == 1:
@@ -10,6 +10,6 @@ def fibonacci(max: int) -> list:
     
     return sequence
 
-print(fibonacci(20)) # [0, 1, 1, 2, 3, 5, 8, 13]
-print(fibonacci(1)) # [0]
-print(fibonacci(-4)) # []
+print(Fibonacci(20)) # [0, 1, 1, 2, 3, 5, 8, 13]
+print(Fibonacci(1)) # [0]
+print(Fibonacci(-4)) # []
